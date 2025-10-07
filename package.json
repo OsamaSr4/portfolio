@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://OsamaSr4.github.io/osama-portfolio/",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,21 +12,22 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@react-three/drei": "^9.56.3",
+    "@react-three/fiber": "^8.11.0",
+    "framer-motion": "^10.12.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "three": "^0.152.0",
-    "@react-three/fiber": "^8.11.0",
-    "@react-three/drei": "^9.56.3",
-    "framer-motion": "^10.12.16"
+    "three": "^0.152.0"
   },
   "devDependencies": {
-    "typescript": "^5.5.0",
-    "vite": "^5.1.0",
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.11",
-    "tailwindcss": "^3.4.13",
-    "postcss": "^8.4.32",
+    "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.14",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.0",
+    "vite": "^5.1.0"
   }
 }

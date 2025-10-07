@@ -13,7 +13,7 @@ html, body, #root {
 }
 
 body {
-  @apply bg-gradient-to-b from-white/5 to-white/2 text-white font-poppins overflow-x-hidden;
+  @apply bg-gradient-to-b from-white/5 to-white/20 text-white font-poppins overflow-x-hidden;
   background-color: #0f1724;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
